@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Collapse in Bootstrap4</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Collapse in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <!-- BUTTON WITH COLLAPSE -->
+    <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#ui">UI Technologies</a>
+    <div data-toggle="collapse" id="ui">
+        <div class="card-body text-primary">
+            <h3 class="font-weight-bold"> UI Technologies</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam consectetur cupiditate doloremque, esse, eum fugit in incidunt inventore ipsa maiores modi nisi numquam odit perspiciatis porro possimus quas quo quod quos repellat soluta tempora unde voluptate voluptatum! Beatae, et.</p>
+        </div>
+    </div>
+    <!-- ACCORDION -->
+    <div class="accordion">
+        <div class="card">
+            <div class="card-header bg-success text-white" data-toggle="collapse" data-target="#html">
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis deserunt molestiae provident quia sit soluta! Aliquam dolore itaque nesciunt? Delectus ducimus, iste. Ab aperiam at aut commodi consectetur earum eos fugiat harum inventore magni maiores modi nisi numquam officiis porro praesentium quam quasi quisquam, repellat sed sit, totam voluptatem?</p>
+            </div>
+            <div class="collapse" id="html">
+            <div class="card-body">
+                <h4>HTML</h4>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ea ipsa iusto, nulla soluta unde! Assumenda facere ipsam nisi nulla? Alias aliquam animi architecto at commodi consectetur delectus deserunt dignissimos, ea error eum excepturi incidunt laudantium, libero magnam nobis odit officia, pariatur quasi quia quod reiciendis repellendus repudiandae rerum sequi.</P>
+            </div>
+         </div>
+        </div>
+</div>
+
+</div>
+
+  <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
